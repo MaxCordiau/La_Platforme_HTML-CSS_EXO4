@@ -1,0 +1,233 @@
+@import-fonte { 
+    font-family: 'roboto';
+    src: url('D:\Platforme Formation\2 HTML CSS\EXO5/Fonte') format('roboto'),
+    /* Ajoutez d'autres formats de police si nécessaire */
+}
+/* GENERAL */
+*{
+    margin: 0;
+    font-family: roboto;
+    list-style: none;
+}
+/* :root */
+/* .elementor-kit-5 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #423B73;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-f1f2148: #423B73;
+    --e-global-color-ae964d5: #30CD8A;
+    --e-global-color-0d2f60a: #E34E67;
+    --e-global-color-f3a5a43: #1E1D31;
+    --e-global-color-39373f9: #363450;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Open Sans";
+    --e-global-typography-text-font-size: 16px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-fbd86f9-font-family: "Pacifico";
+    --e-global-typography-e11836b-font-family: "Oswald";
+    --e-global-typography-e11836b-font-size: 38px;
+    --e-global-typography-e11836b-font-weight: 700;
+    --e-global-typography-4668acb-font-family: "Oswald";
+    --e-global-typography-4668acb-font-weight: 700;
+    --e-global-typography-4668acb-text-transform: uppercase;
+    color: var(--e-global-color-f1f2148);
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400; */
+
+/* .btn{
+    text-decoration: none;
+    border: 1.5px solid #F17124;
+    color: #F17124;
+    background-color: transparent;
+    padding: 10px 40px 10px 040px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding-inline: 30px 30px;
+    display: table-cell;
+    font-family: "Kanit", Sans-serif;
+    font-weight: 400;
+}
+.btn:hover{
+        transition: 0.4s;
+        color: #fff;
+        border-style: none;
+        background: linear-gradient(to right, #f07728, #ffcc68); 
+} */
+/* Header */
+header{
+    max-width: 1440px;
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* GPT Menu dans le Menu*/
+
+/* nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border-radius: 0 0 4px 4px;
+}
+
+nav ul ul li {
+    display: block;
+    width: 200px;
+}
+
+nav ul ul li a {
+    padding: 10px;
+} */
+
+/* Fin GPT */
+header nav ul a{
+    text-decoration: none;
+    color: #423b73;
+    white-space: nowrap;
+    line-height: 20px;
+}
+header nav ul a:hover{
+    transition: 0.4s;
+    color: #61CE70;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-left: 0;
+}
+header img{
+    /* max-width: 320px; */
+    height: auto;
+    max-width: 40%;
+    border: none;
+}
+#fuck{
+    color: red;
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li ul:hover{
+    display: block;
+}
+#fuck:hover{
+    color: #61CE70;
+}
+#burgermenu{
+    display: none;
+    font-weight: 900;
+}
+#burgermenu:hover{
+    color: #61CE70;
+    font-weight: 900;
+}
+/* Main */
+/* Section 1 */
+#S1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#S1 div img{
+    max-width: 40%;
+}
+#S1 article{
+
+}
+#S1 h1{
+
+}
+#S1 h2{
+
+}
+#S1 p{
+
+}
+#btn1S1{
+
+}
+#btn1S1:hover{
+
+}
+#btn2S1{
+
+}
+#btn2S1:hover{
+
+}
+/* Section 2 */
+
+/* Footer */
+footer section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #363450;
+    color: #fff;
+    margin-top: 20px;
+    /* padding-left: 15px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    line-height: 2em;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+footer article{
+    padding: 30px;
+}
+footer article h3{
+    margin-bottom: 10px;
+}
+footer article p{
+    font-size: 15px;
+    /* text-decoration: none; */
+}
+footer article a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+footer article a:hover{
+    transition: 0.4s;
+    text-decoration: none;
+    color: #61CE70;
+}
+#Copyright{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Copyright a:hover{
+    transition: 0.4s;
+    text-decoration: none;
+    color: red;
+}
