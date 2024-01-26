@@ -267,11 +267,26 @@ nav ul li ul:hover{
     max-width: 100%;
     margin-right: -53px;
 }
+/* Section 3 */
+#S3div{
+    display: grid;
+}
+#S3div{
+    grid-template-columns: repeat(2,1fr);
+    padding: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+#S3div article{
+    justify-content: space-between;
+    margin: auto;
+}
 .S3p{
     background-color: #1e1d31;
     border-radius: 24px;
     padding: 40px;
     color: #fff;
+    margin-right: 50px;
 }
 
 /* Footer */
