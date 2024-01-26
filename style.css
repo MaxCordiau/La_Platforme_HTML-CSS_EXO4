@@ -247,10 +247,26 @@ nav ul li ul:hover{
     justify-content: space-between;
 }
 #divS2 article{
-    justify-content: space-between;
+    line-height: 1.5;
+    margin-left: 50px;
+    padding: 20px;
+    margin-right: 50px;
 }
 #divS2 h3{
     color: #30cd8a;
+}
+
+.S2img {
+    display: flex;
+    align-items: center; 
+}
+#divS2 img{
+    height: auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    max-width: 100%;
+    margin-right: -53px;
 }
 
 /* Footer */
