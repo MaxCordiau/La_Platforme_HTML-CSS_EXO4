@@ -255,7 +255,6 @@ nav ul li ul:hover{
 #divS2 h3{
     color: #30cd8a;
 }
-
 .S2img {
     display: flex;
     align-items: center; 
@@ -267,6 +266,12 @@ nav ul li ul:hover{
     box-shadow: none;
     max-width: 100%;
     margin-right: -53px;
+}
+.S3p{
+    background-color: #1e1d31;
+    border-radius: 24px;
+    padding: 40px;
+    color: #fff;
 }
 
 /* Footer */
