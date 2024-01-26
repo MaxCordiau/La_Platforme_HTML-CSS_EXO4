@@ -1,0 +1,1 @@
+Se repertoir est un exercice de la formation devloppeur web et mobil de la platforme, j'ai donc pour but de de m'exercer en refaisant le site sans voler de contenu.
