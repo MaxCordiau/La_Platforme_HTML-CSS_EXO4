@@ -44,8 +44,8 @@
                     <h1>Votre projet est à votre portée</h1>
                     <h2>Accompagnement à la digitalisation</h2>
                     <p>Nos équipes vous accompagnent dans la digitalisation de votre entreprise. De la création de votre site à la mise en place de votre communication social média.</p>
-                    <a href="#" id="btn1S1">S'inscrire</a>
-                    <a href="#" id="btn2S1">Contact</a>
+                    <a href="#" class="btn1S1">S'inscrire</a>
+                    <a href="#" class="btn2S1">Contact</a>
                 </article>
                 <div>
                     <img src="img/skills.png" alt="skills">
@@ -93,24 +93,34 @@
         <!-- Section 3 -->
         <section id="S3">
             <div>
-                <article>
-                    <h1>Des intervenants à votre écoute</h1>
-                    <h2>Découvrez notre équipe d'intervenants qui s'adaptent à votre besoin</h2>
-                    <p>Depuis plusieurs années, le web c’est notre métier, mais également notre passion. Après avoir créé bon nombre de sites et avoir formé nos clients à leur utilisation, nous avons conclu qu’il était important de transmettre notre savoir pour vous amener vers plus d’autonomie.</p>
-                </article>
+                <div id="S3article1">
+                    <article>
+                        <h1>Des intervenants à votre écoute</h1>
+                        <h2>Découvrez notre équipe d'intervenants qui s'adaptent à votre besoin</h2>
+                        <p>Depuis plusieurs années, le web c’est notre métier, mais également notre passion. Après avoir créé bon nombre de sites et avoir formé nos clients à leur utilisation, nous avons conclu qu’il était important de transmettre notre savoir pour vous amener   vers plus d’autonomie.</p>
+                    </article>
+                </div>
                 <div id="S3div">
                     <article>
-                        <img src="img/JL.png" alt="JL">
-                        <h3>Jean-Louis ERRANTE</h3>
-                        <p>Formateur, coach, chef de projet</p>
+                        <div class="S3div2">
+                            <img src="img/JL.png" alt="JL">
+                            <article>
+                                <h3>Jean-Louis ERRANTE</h3>
+                                <p>Formateur, coach, chef de projet</p>
+                            </article>
+                        </div>
                         <div class="S3p">
                             <p>Depuis 2016 je crée des sites de qualité à fort potentiel et aide les marques à effectuer la transition vers le numérique afin d’acquérir de nouveaux clients.</p>
                         </div>
                     </article>
                     <article>
-                        <img src="img/Vincent.png" alt="Vincent">
-                        <h3>Vincent ERRANTE</h3>
-                        <p>Formateur, coach, chef de projet</p>
+                        <div class="S3div2">
+                            <img src="img/Vincent.png" alt="Vincent">
+                            <article>
+                                <h3>Vincent ERRANTE</h3>
+                                <p>Formateur, coach, chef de projet
+                            <article>
+                        </div>
                         <div class="S3p">
                             <p>Je mets à disposition des entreprises et des startups mon savoir-faire et mes compétences pour générer du trafic qualifié et augmenter leur chiffre d’affaires.</p>
                         </div>
@@ -119,9 +129,94 @@
             </div>
         </section>
         <!-- Section 4 -->
-        <section>
+        <section id="S4">
             <div>
-
+                <article>
+                    <h1>Accompagnement à la digitalisation</h1>
+                    <h2>Réserver un accompagnement perso ou en small group</h2>
+                </article>
+                <div id="S4article1">
+                    <article>
+                        <h3>INSCRIPTION À L’ACCOMPAGNEMENT PERSO
+                        </h3>
+                        <ul>
+                            <li>Accompagnement individuel 100% personnalisé
+                            </li>
+                            <li>Découverte du web et des outils adéquats
+                            </li>
+                            <li>Mise en place d’un site web avec accompagnement pas-à-pas
+                            </li>
+                            <li>Présentation et mise en place d’outils marketing digital
+                            </li>
+                            <li>Mise en place des réseaux sociaux
+                            </li>
+                        </ul>
+                    </article>
+                        <img src="img/illustration-formation-small-groupe.png" alt="">
+                </div>
+                <div class="S4btn">
+                    <a href="#" class="btn1S1">Inscription accompagnement perso</a>
+                </div>
+                <div>
+                    </article>
+                    <div id="S4article2">
+                    <img src="img/Accompagnement-small-groupe-1.png" alt="">
+                    <article>
+                        <h3>INSCRIPTION À L’ACCOMPAGNEMENT SMALL GROUP</h3>
+                        <ul>
+                            <li>Accompagnement en petit groupe de 3 à 12 personnes</li>
+                            <li>Découverte du web et des outils adéquats</li>
+                            <li>Mise en place d’un site web avec un CMS (WordPress)</li>
+                            <li>Présentation et mise en place d’outils marketing digital
+                            </li>
+                            <li>Mise en place des réseaux sociaux
+                            </li>
+                        </ul>
+                    </article>
+                    </div>
+                    <div class="S4btn">
+                        <a href="#" class="btn2S1">Inscription accompagnement small group</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="S5">
+            <article id="ArticleS5">
+                <div>
+                    <h1>En savoir plus</h1>
+                    <h2>Vous souhaitez obtenir plus d'informations ?</h2>
+                    <p>Utilisez le formulaire de contact pour obtenir plus d’informations. Nous sommes à votre écoute. Un chargé de clientèle prendra contact avec vous rapidement pour discuter de votre projet</p>
+                </div>
+                </article>
+            <div id="ptn">
+                <article id="Contact">
+                        <h2>CONTACTER-NOUS</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-column">
+                                <input type="text" name="nom" placeholder="Votre nom et prénom" id="nom" required>
+                            </div>
+                            <div class="form-column">
+                                <input type="telephone" id="telephone" name="nom" placeholder="Votre numéro de téléphone" required>
+                            </div>
+                        </div>
+                            <!-- Les autres champs du formulaire -->
+                            <input type="text" id="societe" name="societe" placeholder="Le nom de votre entreprise" required>
+                            <input type="text" id="email" name="email" placeholder="Votre adresse mail" required>
+                            <select id="liste" name="liste" required>
+                                <option value="Je veux des renseignements concernant l'accompagnement perso">Je veux des renseignements concernant l'accompagnement perso</option>
+                                <option value="Je veux des renseignements concernant l'accompagnement small group">Je veux des renseignements concernant l'accompagnement small group</option>
+                                <option value="Je veux des renseignements concernant la formation digitale">Je veux des renseignements concernant la formation digitale</option>
+                                <option value="Je veux des renseignements concernant le coaching digital">le coaching digital</option>
+                                <option value="J'ai une autre demande">J'ai une autre demande</option>
+                            </select>
+                        <textarea name="demande" rows="4" placeholder="Précisez votre demande afin de faciliter l'échange lorsqu'un de nos conseillers vous appellera" id="demande" required></textarea>
+                            <!-- reste formulaire -->
+                        <input type="checkbox" name="acceptation" id="acceptation" required>
+                        <label for="Envoyer">En soumettant ce formulaire, j'accepte que les informations saisies soient transmises par mail au seul destinataire de Hagile® dans le but d'être recontacté concernant la demande effectuée. Je comprends que j'ai un droit de modification, d'accès et de suppression de mes informations personnelles.</label>
+                        <a href="#" id="btnS5">Envoyer la demande</a>
+                    </form>
+                </article>
             </div>
         </section>
     </main>
