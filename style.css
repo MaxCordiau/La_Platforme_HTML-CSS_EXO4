@@ -789,7 +789,7 @@ footer article a:hover{
     }
     #ArticleS5,
     #Contact {
-        width: 100%;
+        /* width: 100%; */
         margin: 0;
         /* padding: 20px; */
         text-align: -webkit-center;
@@ -807,7 +807,8 @@ footer article a:hover{
         margin-top: 0px;
     }
     #Contact{
-        max-width: initial;
+        /* max-width: initial; */
+        max-width: 700px;
     }
     #S4article2{
         margin-top: 0px;
@@ -816,7 +817,9 @@ footer article a:hover{
         display: none;
     }
     #img2redsponsive{
-        margin-left: 200px;
+        /* margin-left: 200px; */
+        /* grid-template-columns: repeat(2,1fr); */
+        grid-row: inherit;
         width: 400px;
         display: block;
     }
@@ -824,9 +827,12 @@ footer article a:hover{
         display: none;
     }
     #img4redsponsive{
-        margin-left: 200px;
+        /* margin-left: 200px; */
         width: 400px;
         display: block;
+    }
+    #S4{
+        display: grid;
     }
 }
 /* Responsive Telephone */
