@@ -240,7 +240,7 @@ nav ul li ul:hover{
     fill: var(--e-global-color-ae964d5);
     color: var(--e-global-color-ae964d5);
     color: #30cd8a;
-    background-color: #fff;
+    background-color: transparent;
     border-color: #30cd8a;
     border-style: solid;
     border-width: 1px;
@@ -282,6 +282,9 @@ nav ul li ul:hover{
     box-shadow: none;
     max-width: 100%;
     margin-right: -53px;
+}
+#S2img article{
+    /* padding-bottom: 50px; */
 }
 /* Section 3 */
 #S3article1 {
@@ -440,6 +443,13 @@ color: #61CE70;
     align-self: flex-end; /* Aligne l'image en bas du conteneur flex */
     border-radius: 0 24px 24px 0; /* Ajoute une bordure arrondie à l'angle droit de l'image */
 }
+#img2redsponsive{
+    display: none;
+}
+#img4redsponsive{
+    margin-top: 100px;
+    display: none;
+}
 /* BTN A RE VOIR */
 .S4btn{
     margin-top: 30px;
@@ -552,7 +562,7 @@ form{
     border-style: solid;
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
-    max-width: calc(50% - 20px); 
+    max-width: 500px;
     background: #1e1d31;
     margin-right: 20px;
     padding: 20px;
@@ -569,7 +579,7 @@ form{
 #Contact label {
     max-width: 100%;
     display: block;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     color: white;
     margin-left: 10px;
 }
@@ -614,6 +624,12 @@ form{
 .form-column {
     /* background-color: #1e1d31; */
     width: 48%; /* Ajustez selon vos besoins pour laisser un peu d'espace entre les champs */
+}
+#conditions{
+    margin-bottom: 50px;
+}
+#btnS5 {
+    margin-top: 10px;
 }
 #liste{
     background-color: #1e1d31;
@@ -728,11 +744,25 @@ footer article a:hover{
     #S1 article {
         margin: 0;
     }
-    #S2, #S3article1, #S4, #ArticleS5 {
+    #divS2 {
+        flex-direction: column;
+    }
+    .S2img {
+        margin-bottom: 30px;
+    }
+    .S2img img {
+        max-width: 100%;
+    }
+    #btnAS2{
+        text-align: center;
+    }
+    /* #S2,  */
+    #S3article1, #S4, #ArticleS5 {
         display: grid;
         padding: 50px 0;
     }
-    #divS2, #divS2 article, #S3article1, .S3div2, #S4 article, #S4article1, #S4article2, #ArticleS5, #Contact {
+    /* #divS2, #divS2  */
+    article, #S3article1, .S3div2, #S4 article, #S4article1, #S4article2, #ArticleS5, #Contact {
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -753,8 +783,50 @@ footer article a:hover{
         margin-left: 0;
         margin-right: 0;
     }
+    #S5 {
+        flex-direction: column;
+        display: block;
+    }
+    #ArticleS5,
+    #Contact {
+        width: 100%;
+        margin: 0;
+        /* padding: 20px; */
+        text-align: -webkit-center;
+    }
+    #ArticleS5 h1,
+    #ArticleS5 h2,
+    #ArticleS5 p {
+        text-align: center;
+    }
     footer section {
         grid-template-columns: repeat(2, 1fr);
+    }
+    #S4 article{
+        border-radius: 24px 24px 24px 24px;
+        margin-top: 0px;
+    }
+    #Contact{
+        max-width: initial;
+    }
+    #S4article2{
+        margin-top: 0px;
+    }
+    #img1redsponsive{
+        display: none;
+    }
+    #img2redsponsive{
+        margin-left: 200px;
+        width: 400px;
+        display: block;
+    }
+    #img3redsponsive{
+        display: none;
+    }
+    #img4redsponsive{
+        margin-left: 200px;
+        width: 400px;
+        display: block;
     }
 }
 /* Responsive Telephone */
@@ -780,6 +852,9 @@ footer article a:hover{
     }
     #S2 p, #S3article1 article p, .S3p, #S3div article, #S4 p, #ArticleS5 p {
         font-size: 14px;
+    }
+    #btnAS2{
+        text-align: center;
     }
     #S4article1 article, #S4article2 article, #ArticleS5 article {
         padding: 20px;
